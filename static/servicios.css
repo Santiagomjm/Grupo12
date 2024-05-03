@@ -101,6 +101,15 @@ h1 {
     border-top: 1px solid #ccc; 
     padding: 10px;
 }
+    #map-container {
+        width: 550px;
+        height: 450px;
+        border: 2px solid #ccc;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden; /* Ensures the shadow doesn't overflow */
+    }
+    
+    
 
 .footer p {
     margin: 0;
